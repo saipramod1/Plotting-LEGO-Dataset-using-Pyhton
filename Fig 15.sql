@@ -1,0 +1,111 @@
+-- phpMyAdmin SQL Dump
+-- version 4.7.8
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: Apr 05, 2018 at 06:34 AM
+-- Server version: 5.6.38
+-- PHP Version: 7.0.27
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `lego_db`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `Graph1`
+--
+
+CREATE TABLE `Graph1` (
+  `year` int(11) NOT NULL,
+  `parts_used` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `Graph1`
+--
+
+INSERT INTO `Graph1` (`year`, `parts_used`) VALUES
+(1950, 284),
+(1953, 264),
+(1954, 692),
+(1955, 4128),
+(1956, 888),
+(1957, 3580),
+(1958, 7468),
+(1959, 260),
+(1960, 2104),
+(1961, 4800),
+(1962, 13080),
+(1963, 2400),
+(1964, 3636),
+(1965, 4284),
+(1966, 14464),
+(1967, 8280),
+(1968, 12716),
+(1969, 17824),
+(1970, 9836),
+(1971, 12056),
+(1972, 15624),
+(1973, 28112),
+(1974, 18216),
+(1975, 19248),
+(1976, 41624),
+(1977, 33672),
+(1978, 42812),
+(1979, 34556),
+(1980, 44576),
+(1981, 29232),
+(1982, 21076),
+(1983, 26464),
+(1984, 28892),
+(1985, 67852),
+(1986, 55988),
+(1987, 58520),
+(1988, 39212),
+(1989, 46644),
+(1990, 68596),
+(1991, 70384),
+(1992, 55016),
+(1993, 65896),
+(1994, 65344),
+(1995, 91664),
+(1996, 116116),
+(1997, 100280),
+(1998, 183464),
+(1999, 126708),
+(2000, 136512),
+(2001, 141520),
+(2002, 206872),
+(2003, 265068),
+(2004, 206052),
+(2005, 262288),
+(2006, 279416),
+(2007, 292232),
+(2008, 323312),
+(2009, 317244),
+(2010, 373716),
+(2011, 322104),
+(2012, 368424),
+(2013, 430148),
+(2014, 484028),
+(2015, 536440),
+(2016, 603336),
+(2017, 308812);
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
